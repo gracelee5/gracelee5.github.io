@@ -105,18 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "이경원"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/IMG_6126.HEIC"
   bio              : "**반갑습니다**"
   location         : "Republic of Korea"
-  email            :
-  github           :"https://github.com/gracelee5"
+  email            : "gracelee5@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:gracelee5@naver.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://gracelee5.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/gracelee5"
@@ -129,9 +125,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:"https://github.com/gracelee5"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+
 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
