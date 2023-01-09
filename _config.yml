@@ -104,11 +104,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "이경원"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "**반갑습니다**"
+  location         : "Republic of Korea"
   email            :
+  github           :"https://github.com/gracelee5"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
