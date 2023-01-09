@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "경원이의 공부 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your name"
-description              : "An amazing website."
+name                     : "이경원"
+description              : "Study"
 url                      : "https://gracelee5.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"
+  provider               : "disqus"# false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : lkw-blog
+    shortname            : "lkw-blog"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : #"google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -105,17 +105,17 @@ analytics:
 # Site Author
 author:
   name             : "이경원"
-  avatar           : # path of avatar image, e.g. "/assets/IMG_6126.HEIC"
+  avatar           : "/assets/IMG_6126.HEIC"
   bio              : "**반갑습니다**"
   location         : "Republic of Korea"
   email            : "gracelee5@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:gracelee5@naver.com"
+      url: "mailto:gracelee5@naver.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/gracelee5"
+      url: "https://github.com/gracelee5"
 
 
 # Site Footer
@@ -124,7 +124,7 @@ footer:
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:"https://github.com/gracelee5"
+      url:"https://github.com/gracelee5"
 
 
     - label: "Instagram"
